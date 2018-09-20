@@ -1,55 +1,36 @@
 <!DOCTYPE html>
-<html lang="zh-TW">
+<html lang="zh-Hens-TW">
 <head>
 	<meta charset="UTF-8">
-	<title>Design</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!-- Favicon -->
-	
-	<!-- Google Fonts -->
-	<link href="https://fonts.googleapis.com/earlyaccess/notosanstc.css" rel="stylesheet">
-	<!-- CSS reset -->
-	<link rel="stylesheet" href="assets/vender/normalize.css">
-	<!-- CSS vender -->
-	<link rel="stylesheet" href="assets/vender/bootstrap/bootstrap-grid.css">
-	<link rel="stylesheet" href="assets/vender/fontawesome-free-5.1.0-web/css/all.css">
-	<link rel="stylesheet" href="assets/vender/fontello/css/fontello.css">
-	<!-- CSS globel and components -->
-	<link rel="stylesheet" href="assets/css/base.css">
-	<link rel="stylesheet" href="assets/css/layout.css">
-	<link rel="stylesheet" href="assets/css/components.css">
-	<!-- CSS custom -->
-	<link rel="stylesheet" href="assets/css/custom.css">
-	<link rel="stylesheet" href="assets/css/index-style.css">
-	
+	<title>日沐咖啡</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	<div class="wrapper bgc--light-grey-2">
-
+	<div class="wrapper">
+		
 		<!-- Start header -->
 		<header class="header">
-			<div class="navbar navbar--light">
-				<div class="container-fluid">
-					<div class="navbar__inner">
-						<a href="#" class="navbar__logo"></a>
-						<ul class="nav navbar__nav">
-							<li class="nav__item">
-								<a href="#!" class="nav__link">首頁</a>
-							</li>
-							<li class="nav__item">
-								<a href="#!" class="nav__link">關於</a>
-							</li>
-							<li class="nav__item">
-								<a href="#!" class="nav__link">服務</a>
-							</li>
-							<li class="nav__item">
-								<a href="#!" class="nav__link">專案</a>
-							</li>
-							<li class="nav__item">
-								<a href="#!" class="nav__link">聯絡</a>
-							</li>
-						</ul>
-					</div>
+			<div class="navbar">
+				<div class="container">
+					<a href="#!" class="brand">rimoo café</a>
+					<ul class="nav">
+						<li class="nav-item">
+							<a href="#!" class="nav-link">關於</a>
+						</li>
+						<li class="nav-item">
+							<a href="#!" class="nav-link">服務</a>
+						</li>
+						<li class="nav-item">
+							<a href="#!" class="nav-link">訂位</a>
+						</li>
+						<li class="nav-item">
+							<a href="#!" class="nav-link">菜單</a>
+						</li>
+						<li class="nav-item">
+							<a href="#!" class="nav-link">聯絡</a>
+						</li>
+					</ul>
 				</div>
 			</div>
 		</header>
@@ -57,33 +38,34 @@
 
 		<!-- Start main -->
 		<section class="main">
-
+			
 			<!-- Start jumbotron -->
 			<div class="jumbotron">
-				<div class="mask--light"></div>
+				<div class="mask-dark"></div>
 				<div class="container">
-					<div class="jumbotron__heading">室內裝潢的極致美學</div>
-					<p class="jumbotron__para">現代人生活緊湊，資訊繁多，工作及生活的環境不能馬虎<br>提供您最優質的設計服務，讓您享受最舒適的生活！</p>
-					<a href="#" class="btn btn--primary btn--lg">點擊了解更多</a>
+					<div class="logo-image"></div>
+					<div class="btn-center">
+						<a href="#" class="btn btn-lg btn-primary">加入我們</a
+						><a href="#" class="btn btn-secondary btn-lg">好喔喔喔</a>
+					</div>
 				</div>
 			</div>
 			<!-- End jumbotron -->
 
 			<!-- Start about -->
-			<div class="index-about hero hero--white">
+			<div class="hero hero-bg-grey">
 				<div class="container">
-					<div class="big-word">ABOUT</div>
 					<div class="row">
-						<div class="col-lg-5">
-							<div class="intro">
-								<h3 class="heading">我們幫助你滿足所需<br>提升你家的<span class="color--secondary">溫度</span></h3>
-								<p class="para">對所有的人來說，有一個安身立命的場所是重要的，不論是在工作、生活、飲食等等，我們的目的在於提供更好的環境。</p>
-								<a href="#" class="btn btn--primary btn--md">關於我們</a>
+						<div class="col-1-2">
+							<div class="about-preview">
+								<h3 class="title">每杯咖啡留著手的餘溫</h3>
+								<p class="para">一個咖啡有溫度的故事，只要咖啡加熱，沸騰到攝氏100度，你就可以用手摸摸看，應該會十分的燙手，一個咖啡有溫度的故事，只要咖啡加熱，沸騰到攝氏100度，你就可以用手摸摸看，應該會十分的燙手，一個咖啡有溫度的故事，只要咖啡加熱，沸騰到攝氏100度，你就可以用手摸摸看，應該會十分的燙手。</p>
+								<a href="#" class="btn btn-primary">更多我們的故事</a>
 							</div>
 						</div>
-						<div class="col-lg-7">
-							<div class="img-container">
-								<div class="image" style="background-image: url('assets/images/works/work003.jpg');"></div>
+						<div class="col-1-2">
+							<div class="image-container">
+								<div class="image" style="background-image: url('images/products/product005.jpg');"></div>
 							</div>
 						</div>
 					</div>
@@ -92,150 +74,251 @@
 			<!-- End about -->
 
 			<!-- Start service -->
-			<div class="index-service hero hero--light-grey-2">
+			<div class="hero hero-bg-white">
 				<div class="container">
-					<div class="big-word">SERVICE</div>
-					<div class="row">
-						<div class="col-lg-4">
-							<div class="card">
-								<div class="icon icon-lightbulb"></div>
-								<h4 class="heading">客製化</h4>
-								<p>對所有的人來說，有一個安身立命的場所是重要的，不論是在工作、生活、飲食等等，我們的目的在於提供更好的環境。</p>
-							</div>
-						</div>
-						<div class="col-lg-4">
-							<div class="card">
-								<div class="icon icon-money"></div>
-								<h4 class="heading">價格划算</h4>
-								<p>對所有的人來說，有一個安身立命的場所是重要的，不論是在工作、生活、飲食等等，我們的目的在於提供更好的環境。</p>
-							</div>
-						</div>
-						<div class="col-lg-4">
-							<div class="card">
-								<div class="icon icon-truck"></div>
-								<h4 class="heading">到府服務</h4>
-								<p>對所有的人來說，有一個安身立命的場所是重要的，不論是在工作、生活、飲食等等，我們的目的在於提供更好的環境。</p>
-							</div>
-						</div>
+					<div class="section-intro">
+						<h2 class="title">SERVICES</h2>
+						<p class="para">我們提供的服務在這裡有初步的介紹，諸如此類的介紹等等<br>多的文字就可以換行繼續寫</p>
 					</div>
-					<div class="btn-group btn-group--center">
-						<div class="btn btn--primary btn--md">更多相關介紹</div>
+					<div class="row">
+						<div class="col-1-3">
+							<div class="service-item">
+								<div class="image-container">
+									<div class="image" style="background-image: url('images/products/product001.jpg');"></div>
+								</div>
+								<div class="preview">
+									<h4 class="title">香濃的咖啡</h4>
+									<h5 class="subtitle">現煮的香濃咖啡，優質的咖啡豆</h5>
+									<p class="para">一段中文的敘述文字，說明東西的美味及外觀等等的話，一段中文的敘述文字，說明東西的美味及外觀等等的話。</p>
+									<a href="#!" class="btn btn-secondary">Read more</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-1-3">
+							<div class="service-item">
+								<div class="image-container">
+									<div class="image" style="background-image: url('images/products/product002.jpg');"></div>
+								</div>
+								<div class="preview">
+									<h4 class="title">精緻的小點</h4>
+									<h5 class="subtitle">好吃的喔，一定要來喔</h5>
+									<p class="para">一段中文的敘述文字，說明東西的美味及外觀等等的話，一段中文的敘述文字，說明東西的美味及外觀等等的話。</p>
+									<a href="#!" class="btn btn-secondary">Read more</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-1-3">
+							<div class="service-item">
+								<div class="image-container">
+									<div class="image" style="background-image: url('images/products/product003.jpg');"></div>
+								</div>
+								<div class="preview">
+									<h4 class="title">寬敞的空間</h4>
+									<h5 class="subtitle">舒適的享受環境</h5>
+									<p class="para">一段中文的敘述文字，說明東西的美味及外觀等等的話，一段中文的敘述文字，說明東西的美味及外觀等等的話。</p>
+									<a href="#!" class="btn btn-secondary">Read more</a>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
 			<!-- End service -->
 
-			<!-- Start project -->
-			<div class="index-project hero hero--white">
-				<div class="container">
-					<div class="big-word">PROJECTS</div>
-					<div class="project-item">
-						<div class="row">
-							<div class="col-lg-8">
-								<div class="img-container">
-									<div class="image" style="background-image: url('assets/images/works/work002.jpg');"></div>
-									<div class="mask--primary"></div>
-								</div>
-							</div>
-							<div class="col-lg-4">
-								<div class="intro">
-									<h3 class="heading heading--left">辦公室設計</h3>
-									<p class="para">對所有的人來說，有一個安身立命的場所是重要的，不論是在工作、生活、飲食等等，我們的目的在於提供更好的環境。</p>
-									<a href="#!" class="btn btn--primary btn--md">詳細資訊</a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="project-item">
-						<div class="row">
-							<div class="col-lg-8 order-lg-2">
-								<div class="img-container">
-									<div class="image" style="background-image: url('assets/images/works/work004.jpg');"></div>
-								</div>
-							</div>
-							<div class="col-lg-4 order-lg-1">
-								<div class="intro">
-									<h5 class="heading">自家場所</h5>
-									<p class="para">對所有的人來說，有一個安身立命的場所是重要的，不論是在工作、生活、飲食等等，我們的目的在於提供更好的環境。</p>
-									<a href="#!" class="btn btn--primary btn--md">詳細資訊</a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="project-item">
-						<div class="row">
-							<div class="col-lg-8">
-								<div class="img-container">
-									<div class="image" style="background-image: url('assets/images/works/work017.jpg');"></div>
-								</div>
-							</div>
-							<div class="col-lg-4">
-								<div class="intro">
-									<h5 class="heading heading--left">餐廳裝潢</h5>
-									<p class="para">對所有的人來說，有一個安身立命的場所是重要的，不論是在工作、生活、飲食等等，我們的目的在於提供更好的環境。</p>
-									<a href="#!" class="btn btn--primary btn--md">詳細資訊</a>
-								</div>
-							</div>
-						</div>
-					</div>
+			<!-- Start reservation -->
+			<div class="hero reservation">
+				<div class="mask-dark"></div>
+				<div class="section-intro">
+					<h2 class="title">RESERVATION</h2>
+					<p class="para">想來瞧瞧嗎，趕快為你的午後時光找個好去處，想來瞧瞧嗎，趕快為你的午後時光找個好去處</p>
+				</div>
+				<div class="btn-center">
+					<a href="#" class="btn btn-primary btn-lg">訂位請點我</a>
 				</div>
 			</div>
-			<!-- End project -->
+			<!-- End reservation -->
 
-			<!-- Start designer -->
-			<div class="index-designer hero hero--light-grey-2">
+			<!-- Start menu -->
+			<div class="hero">
 				<div class="container">
-					<div class="big-word">DESIGNERS</div>
-					<div class="container">
+					<div class="section-intro">
+						<h2 class="title">MENU</h2>
+						<p class="para">來看看我們的菜單，提供了各式各樣的商品等等的文字<br>換行繼續寫，更多的文字</p>
+					</div>
+					<div class="menu-list">
+						<div class="title-bar">
+							<h3 class="title">Coffee & Beverage</h3>
+							<a href="#" class="btn btn-secondary">more</a>
+						</div>
 						<div class="row">
-							<div class="col-lg-6">
-								<div class="card designer">
-									<a href="#!" class="avatar avatar--md" style="background-image: url('assets/images/designer/designer001.jpg');"></a>
-									<h4 class="heading">徐志摩</h4>
-									<p class="para">輕輕的我走了正如我輕輕地來，我揮揮衣袖不帶走上面的灰塵，輕輕的我走了正如我輕輕地來，我揮揮衣袖不帶走上面的灰塵</p>
-									<a href="#!" class="btn btn--secondary">查看專案</a>
+							<div class="col-1-4">
+								<div class="list-item">
+									<a href="#">
+										<div class="image-container">
+											<div class="image" style="background-image: url('images/products/product005.jpg');"></div>
+										</div>
+									</a>
+									<div class="preview">
+										<a href="#">
+											<h5 class="title">阿拉斯加咖啡</h5>
+										</a>
+										<h6 class="subtitle">供應的條件</h6>
+									</div>
 								</div>
 							</div>
-							<div class="col-lg-6">
-								<div class="card designer">
-									<a href="#!" class="avatar avatar--md" style="background-image: url('assets/images/designer/designer002.jpg');"></a>
-									<h4 class="heading">朱志清</h4>
-									<p class="para">我的背影很美，希望你也有一個，雖然橘子很甜，但沒有我嘴巴甜，我的背影很美，希望你也有一個，雖然橘子很甜，但沒有我嘴巴甜</p>
-									<a href="#!" class="btn btn--secondary">查看專案</a>
+							<div class="col-1-4">
+								<div class="list-item">
+									<a href="#">
+										<div class="image-container">
+											<div class="image" style="background-image: url('images/products/product006.jpg');"></div>
+										</div>
+									</a>
+									<div class="preview">
+										<a href="#">
+											<h5 class="title">阿拉斯加咖啡</h5>
+										</a>
+										<h6 class="subtitle">供應的條件</h6>
+									</div>
 								</div>
 							</div>
-							<!-- <div class="col-lg-6">
-								<div class="card designer">
-									<a href="#!" class="avatar avatar--md"></a>
-									<h4 class="heading">白先勇</h4>
-									<p class="para">生於廣西桂林，父親白崇禧是中國國民黨桂系將領</p>
-									<a href="#!" class="btn btn--primary">查看專案</a>
+							<div class="col-1-4">
+								<div class="list-item">
+									<a href="#">
+										<div class="image-container">
+											<div class="image" style="background-image: url('images/products/product007.jpg');"></div>
+										</div>
+									</a>
+									<div class="preview">
+										<a href="#">
+											<h5 class="title">阿拉斯加咖啡</h5>
+										</a>
+										<h6 class="subtitle">供應的條件</h6>
+									</div>
 								</div>
-							</div> -->
+							</div>
+							<div class="col-1-4">
+								<div class="list-item">
+									<a href="#">
+										<div class="image-container">
+											<div class="image" style="background-image: url('images/products/product008.jpg');"></div>
+										</div>
+									</a>
+									<div class="preview">
+										<a href="#">
+											<h5 class="title">阿拉斯加咖啡</h5>
+										</a>
+										<h6 class="subtitle">供應的條件</h6>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="menu-list">
+						<div class="title-bar">
+							<h3 class="title">Coffee & Beverage</h3>
+							<a href="#" class="btn btn-secondary">more</a>
+						</div>
+						<div class="row">
+							<div class="col-1-4">
+								<div class="list-item">
+									<a href="#">
+										<div class="image-container">
+											<div class="image" style="background-image: url('images/products/product005.jpg');"></div>
+										</div>
+									</a>
+									<div class="preview">
+										<a href="#">
+											<h5 class="title">阿拉斯加咖啡</h5>
+										</a>
+										<h6 class="subtitle">供應的條件</h6>
+									</div>
+								</div>
+							</div>
+							<div class="col-1-4">
+								<div class="list-item">
+									<a href="#">
+										<div class="image-container">
+											<div class="image" style="background-image: url('images/products/product006.jpg');"></div>
+										</div>
+									</a>
+									<div class="preview">
+										<a href="#">
+											<h5 class="title">阿拉斯加咖啡</h5>
+										</a>
+										<h6 class="subtitle">供應的條件</h6>
+									</div>
+								</div>
+							</div>
+							<div class="col-1-4">
+								<div class="list-item">
+									<a href="#">
+										<div class="image-container">
+											<div class="image" style="background-image: url('images/products/product007.jpg');"></div>
+										</div>
+									</a>
+									<div class="preview">
+										<a href="#">
+											<h5 class="title">阿拉斯加咖啡</h5>
+										</a>
+										<h6 class="subtitle">供應的條件</h6>
+									</div>
+								</div>
+							</div>
+							<div class="col-1-4">
+								<div class="list-item">
+									<a href="#">
+										<div class="image-container">
+											<div class="image" style="background-image: url('images/products/product008.jpg');"></div>
+										</div>
+									</a>
+									<div class="preview">
+										<a href="#">
+											<h5 class="title">阿拉斯加咖啡</h5>
+										</a>
+										<h6 class="subtitle">供應的條件</h6>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-			<!-- End designer -->
-
-			<!-- Start quote -->
-			<div class="index-quote hero hero--white">
-				<div class="container">
-					<div class="big-word">QUOTE</div>
-					<i class="fa fa-quote-right" aria-hidden="true"></i>
-					<p>輕輕的我走了正如我輕輕地來，我揮揮衣袖不帶走上面的灰塵，輕輕的我走了<br>正如我輕輕地來，我揮揮衣袖不帶走上面的灰塵</p>
-					<p><i>- lorem ipsum</i></p>
-				</div>
-			</div>
-			<!-- End quote -->
+			<!-- End menu -->
 
 			<!-- Start contact -->
-			<div class="index-contact hero">
+			<div class="hero hero-bg-grey">
 				<div class="container">
-					<div class="big-word">CONTACT</div>
-					<h3 class="heading">與我們洽談</h3>
-					<p class="para">輕輕的我走了正如我輕輕地來，我揮揮衣袖不帶走上面的灰塵，輕輕的我走了<br>正如我輕輕地來，我揮揮衣袖不帶走上面的灰塵</p>
-					<a href="#!" class="btn btn--primary btn--lg">聯絡我們</a>
+					<div class="section-intro">
+						<h2 class="title">CONTACT</h2>
+						<p class="para">想要聯絡我們或了解更多的資訊嗎？你可以利用底下的聯絡方式</p>
+					</div>
+					<div class="row">
+						<div class="col-1-2">
+							<div class="contact-info">
+								<div class="info-item">
+									<h4 class="title"><span>PHONE & TEL</span></h4>
+									<div class="info">
+										<a href="#">0912-345-678</a>
+										<span> | </span>
+										<a href="#">07-7894561</a>
+									</div>
+								</div>
+								<div class="info-item">
+									<h4 class="title"><span>LOCATION</span></h4>
+									<a href="#" class="info">高雄市苓雅區某某路 123 號</a>
+								</div>
+								<div class="info-item">
+									<h4 class="title"><span>HOURS</span></h4>
+									<a href="#" class="info">上午 11:00 至下午 6:00、週四公休</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-1-2">
+							<div class="map-container">
+								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14460.75587189774!2d121.52465030974265!3d25.02766037557354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a99db9a2a94d%3A0x43e9034292df69b2!2z5Lit5q2j57SA5b-15aCC!5e0!3m2!1szh-TW!2stw!4v1529814408771" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 			<!-- End contact -->
@@ -244,99 +327,36 @@
 		<!-- End main -->
 
 		<!-- Start footer -->
-		<footer class="footer footer--light">
-			<div class="container"> 
-				<div class="row">
-					<div class="col-lg-6">
-						<h5 class="footer__title">聯絡資訊</h5>
-						<ul class="contact-info">
-							<li class="footer__item contact-info__item">
-								<i class="fas fa-map-marker-alt" aria-hidden="true"></i>
-								<a class="footer__link" href="#!">台北市信義區信義路一段25號</a>
-							</li>
-							<li class="footer__item contact-info__item">
-								<i class="fas fa-phone" aria-hidden="true"></i>
-								<a class="footer__link" href="#!">02-2568-1549</a>
-							</li>
-						</ul>
-						<div class="social-btns">
-							<a href="#!" class="icon-btn">
-								<i class="fab fa-facebook-f" aria-hidden="true"></i>
-							</a>
-							<a href="#!" class="icon-btn">
-								<i class="fab fa-google-plus-g" aria-hidden="true"></i>
-							</a>
-							<a href="#!" class="icon-btn">
-								<i class="fab fa-twitter" aria-hidden="true"></i>
-							</a>
-							<a href="#!" class="icon-btn">
-								<i class="fab fa-dribbble" aria-hidden="true"></i>
-							</a>
-							<a href="#!" class="icon-btn">
-								<i class="fab fa-behance" aria-hidden="true"></i>
-							</a>
-						</div>
-					</div>
-					<div class="col-lg-2">
-						<h5 class="footer__title">關於</h5>
-						<ul>
-							<li class="footer__item">
-								<a class="footer__link" href="#!">故事</a>
-							</li>
-							<li class="footer__item">
-								<a class="footer__link" href="#!">事紀</a>
-							</li>
-							<li class="footer__item">
-								<a class="footer__link" href="#!">品牌</a>
-							</li>
-							<li class="footer__item">
-								<a class="footer__link" href="#!">創始</a>
-							</li>
-						</ul>
-					</div>
-					<div class="col-lg-2">
-						<h5 class="footer__title">服務</h5>
-						<ul>
-							<li class="footer__item">
-								<a class="footer__link" href="#!">綠化</a>
-							</li>
-							<li class="footer__item">
-								<a class="footer__link" href="#!">到府</a>
-							</li>
-							<li class="footer__item">
-								<a class="footer__link" href="#!">流程</a>
-							</li>
-							<li class="footer__item">
-								<a class="footer__link" href="#!">個人</a>
-							</li>
-						</ul>
-					</div>
-					<div class="col-lg-2">
-						<h5 class="footer__title">專案</h5>
-						<ul>
-							<li class="footer__item">
-								<a class="footer__link" href="#!">性質</a>
-							</li>
-							<li class="footer__item">
-								<a class="footer__link" href="#!">提案</a>
-							</li>
-							<li class="footer__item">
-								<a class="footer__link" href="#!">流程</a>
-							</li>
-							<li class="footer__item">
-								<a class="footer__link" href="#!">風格</a>
-							</li>
-						</ul>
-					</div>
+		<footer class="footer">
+			<div class="mask-dark"></div>
+			<div class="hero">
+				<div class="container">
+					<a href="#" class="brand"></a>
+					<ul class="nav">
+						<li class="nav-item">
+							<a href="#" class="nav-link">關於</a>
+						</li>
+						<li class="nav-item">
+	 						<a class="nav-link" href="#">服務</a>
+	 					</li>
+	 					<li class="nav-item">
+	 						<a class="nav-link" href="#">訂位</a>
+	 					</li>
+	 					<li class="nav-item">
+	 						<a class="nav-link" href="#">菜單</a>
+	 					</li>
+	 					<li class="nav-item">
+	 						<a class="nav-link" href="#">聯絡</a>
+	 					</li>
+					</ul>
 				</div>
-				<div class="copyright">
-					<div class="container">
-						<p class="copyright___text">© 2017 All right reserved</p>
-					</div>
-				</div>
+			</div>
+			<div class="copyright">
+				<p>© Copyright 2017 All rights reserved</p>
 			</div>
 		</footer>
 		<!-- End footer -->
+
 	</div>
 </body>
 </html>
