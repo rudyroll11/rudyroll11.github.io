@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+	<meta charset="UTF-8">
+	<title>臺北市藥師公會</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Favicon -->
+	
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/earlyaccess/notosanstc.css" rel="stylesheet">
+	<!-- CSS reset -->
+	<link rel="stylesheet" href="assets/vender/normalize.css">
+	<!-- CSS vender -->
+	<link rel="stylesheet" href="assets/vender/bootstrap/bootstrap-grid.css">
+	<link rel="stylesheet" href="assets/vender/fontawesome-free-5.1.0-web/css/all.css">
+	<!-- CSS globel and components -->
+	<link rel="stylesheet" href="assets/css/base.css">
+	<link rel="stylesheet" href="assets/css/components.css">
+	
+	<!-- CSS custom -->
+	<link rel="stylesheet" href="assets/css/custom.css">
+	<link rel="stylesheet" href="assets/css/slider.css">
+	<!-- JS custom -->
+</head>
+<body>
+	<script src="js/jssor.slider-27.4.0.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        jssor_1_slider_init = function() {
+
+            var jssor_1_SlideshowTransitions = [
+              {$Duration:500,$Delay:12,$Cols:10,$Rows:5,$Opacity:2,$Clip:15,$SlideOut:true,$Formation:$JssorSlideshowFormations$.$FormationStraightStairs,$Assembly:2049,$Easing:$Jease$.$OutQuad},
+              {$Duration:500,$Delay:40,$Cols:10,$Rows:5,$Opacity:2,$Clip:15,$SlideOut:true,$Easing:$Jease$.$OutQuad},
+              {$Duration:1000,x:-0.2,$Delay:20,$Cols:16,$SlideOut:true,$Formation:$JssorSlideshowFormations$.$FormationStraight,$Assembly:260,$Easing:{$Left:$Jease$.$InOutExpo,$Opacity:$Jease$.$InOutQuad},$Opacity:2,$Outside:true,$Round:{$Top:0.5}},
+              {$Duration:1600,y:-1,$Delay:40,$Cols:24,$SlideOut:true,$Formation:$JssorSlideshowFormations$.$FormationStraight,$Easing:$Jease$.$OutJump,$Round:{$Top:1.5}},
+              {$Duration:1200,x:0.2,y:-0.1,$Delay:16,$Cols:10,$Rows:5,$Opacity:2,$Clip:15,$During:{$Left:[0.3,0.7],$Top:[0.3,0.7]},$Formation:$JssorSlideshowFormations$.$FormationStraightStairs,$Assembly:260,$Easing:{$Left:$Jease$.$InWave,$Top:$Jease$.$InWave,$Clip:$Jease$.$OutQuad},$Round:{$Left:1.3,$Top:2.5}},
+              {$Duration:1500,x:0.3,y:-0.3,$Delay:20,$Cols:10,$Rows:5,$Opacity:2,$Clip:15,$During:{$Left:[0.2,0.8],$Top:[0.2,0.8]},$Formation:$JssorSlideshowFormations$.$FormationStraightStairs,$Assembly:260,$Easing:{$Left:$Jease$.$InJump,$Top:$Jease$.$InJump,$Clip:$Jease$.$OutQuad},$Round:{$Left:0.8,$Top:2.5}},
+              {$Duration:1500,x:0.3,y:-0.3,$Delay:20,$Cols:10,$Rows:5,$Opacity:2,$Clip:15,$During:{$Left:[0.1,0.9],$Top:[0.1,0.9]},$SlideOut:true,$Formation:$JssorSlideshowFormations$.$FormationStraightStairs,$Assembly:260,$Easing:{$Left:$Jease$.$InJump,$Top:$Jease$.$InJump,$Clip:$Jease$.$OutQuad},$Round:{$Left:0.8,$Top:2.5}}
+            ];
+
+            var jssor_1_options = {
+              $AutoPlay: 1,
+              $SlideshowOptions: {
+                $Class: $JssorSlideshowRunner$,
+                $Transitions: jssor_1_SlideshowTransitions,
+                $TransitionsOrder: 1
+              },
+              $ArrowNavigatorOptions: {
+                $Class: $JssorArrowNavigator$
+              },
+              $BulletNavigatorOptions: {
+                $Class: $JssorBulletNavigator$
+              }
+            };
+
+            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+
+            /*#region responsive code begin*/
+
+            var MAX_WIDTH = 980;
+
+            function ScaleSlider() {
+                var containerElement = jssor_1_slider.$Elmt.parentNode;
+                var containerWidth = containerElement.clientWidth;
+
+                if (containerWidth) {
+
+                    var expectedWidth = Math.min(MAX_WIDTH || containerWidth, containerWidth);
+
+                    jssor_1_slider.$ScaleWidth(expectedWidth);
+                }
+                else {
+                    window.setTimeout(ScaleSlider, 30);
+                }
+            }
+
+            ScaleSlider();
+
+            $Jssor$.$AddEvent(window, "load", ScaleSlider);
+            $Jssor$.$AddEvent(window, "resize", ScaleSlider);
+            $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
+            /*#endregion responsive code end*/
+        };
+    </script>
+	<div class="wrapper bgc--light-grey-2">
+		
+		<!-- Strat header -->
+<header class="header">
+	<div class="top_navbar">
+			<ul class="nav" id="popup-nav">
+				<li class="nav-item">
+					<a href="#!" class="nav-link">首頁</a>
+				</li>
+				<li class="nav-item">
+					<a href="#service" class="nav-link">會員登錄</a>
+				</li>
+				<li class="nav-item">
+					<a href="#!" class="nav-link">網站導覽</a>
+				</li>
+			</ul>
+		</div>
+		<div class="logo"><img src="assets/images/common/lgoo.png"></div>
+		<div class="search_box"></div>
+		<div class="nav">
+			<ul class="nav" id="popup-nav">
+				<li class="nav-item">
+					<a href="#!" class="nav-link">認識公會</a>
+				</li>
+				<li class="nav-item">
+					<a href="#service" class="nav-link">繼續教育</a>
+				</li>
+				<li class="nav-item">
+					<a href="#!" class="nav-link">活動訊息</a>
+				</li>
+				<li class="nav-item">
+					<a href="#!" class="nav-link">公告訊息</a>
+				</li>
+				<li class="nav-item">
+					<a href="#service" class="nav-link">會員服務</a>
+				</li>
+				<li class="nav-item">
+					<a href="#!" class="nav-link">求職求才</a>
+				</li>
+				<li class="nav-item">
+					<a href="#service" class="nav-link">主題專區</a>
+				</li>
+				<li class="nav-item">
+					<a href="#!" class="nav-link">資料下載</a>
+				</li>
+			</ul>
+		</div>
+</header>
+<!-- End header -->
+
+<!-- Strat main -->
+<section class="main">
+	<div class="container">
+	<div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:980px;height:380px;overflow:hidden;visibility:hidden;">
+        <!-- Loading Screen -->
+        <div data-u="loading" class="jssorl-009-spin" style="position:absolute;top:0px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
+            <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;" src="img/spin.svg" />
+        </div>
+        <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:980px;height:380px;overflow:hidden;">
+            <div>
+                <a href="http://www.tpa.org.tw"><img data-u="image" src="img/011.jpg" /></a>
+            </div>
+            <div>
+                <img data-u="image" src="img/012.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/013.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/014.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/015.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/016.jpg" />
+            </div>
+        </div>
+        <!-- Bullet Navigator -->
+        <div data-u="navigator" class="jssorb053" style="position:absolute;bottom:12px;right:12px;" data-autocenter="1" data-scale="0.5" data-scale-bottom="0.75">
+            <div data-u="prototype" class="i" style="width:16px;height:16px;">
+                <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                    <path class="b" d="M11400,13800H4600c-1320,0-2400-1080-2400-2400V4600c0-1320,1080-2400,2400-2400h6800 c1320,0,2400,1080,2400,2400v6800C13800,12720,12720,13800,11400,13800z"></path>
+                </svg>
+            </div>
+        </div>
+        <!-- Arrow Navigator -->
+        <div data-u="arrowleft" class="jssora093" style="width:50px;height:50px;top:0px;left:30px;" data-autocenter="2" data-scale="0.75" data-scale-left="0.75">
+            <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                <circle class="c" cx="8000" cy="8000" r="5920"></circle>
+                <polyline class="a" points="7777.8,6080 5857.8,8000 7777.8,9920 "></polyline>
+                <line class="a" x1="10142.2" y1="8000" x2="5857.8" y2="8000"></line>
+            </svg>
+        </div>
+        <div data-u="arrowright" class="jssora093" style="width:50px;height:50px;top:0px;right:30px;" data-autocenter="2" data-scale="0.75" data-scale-right="0.75">
+            <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                <circle class="c" cx="8000" cy="8000" r="5920"></circle>
+                <polyline class="a" points="8222.2,6080 10142.2,8000 8222.2,9920 "></polyline>
+                <line class="a" x1="5857.8" y1="8000" x2="10142.2" y2="8000"></line>
+            </svg>
+        </div>
+    </div>
+	</div>
+	<div class="container">
+		<div class="col-lg-6">
+			<h3>最新公告</h3>
+			<ul>
+				<li><span class="badge badge-secondary">本會公告</span><h5>公告名稱公告名稱公告名稱公告名稱公告名稱公告名稱</h5><p>活動日期：2018/08/08~2018/08/18~</p></li>
+				<li><span class="badge badge-secondary">本會政策</span><h5>公告名稱公告名稱公告名稱公告名稱公告名稱</h5><p>活動日期：2018/08/08~2018/08/18~</p></li>
+				<li><span class="badge badge-secondary">法令解釋</span><h5>公告名稱公告名稱公告名稱公告名稱公告名稱公告名稱公告名稱</h5><p>活動日期：2018/08/08~2018/08/18~</p></li>
+				<li><span class="badge badge-secondary">其他法規訊息</span><h5>公告名稱公告名稱公告名稱公告名稱公告名稱公告名稱</h5><p>活動日期：2018/08/08~2018/08/18~</p></li>
+				<li><span class="badge badge-secondary">本會公告</span><h5>公告公告名稱公告名稱公告名稱公告名稱公告名稱名稱</h5><p>活動日期：2018/08/08~2018/08/18~</p></li>
+			</ul>
+		</div>
+		<div class="col-lg-6">
+			<h3>繼續教育</h3>
+			<ul>
+				<li><span class="badge badge-secondary">報名中!</span><h5>課程名稱課程名稱課程名稱課程名稱課程名稱課程名稱課程名稱課程名稱課程名稱課程名稱</h5><p>活動日期：2018/08/08~2018/08/18~</p></li>
+				<li><span class="badge badge-secondary">報名中!</span><h5>稱課程名稱課程名稱課程名稱課程名稱課程稱課程名稱課程名稱課程名稱課程名稱課程</h5><p>活動日期：2018/08/08~2018/08/18~</p></li>
+				<li><span class="badge badge-secondary">準備中</span><h5>稱課程名稱課程名稱課程名稱課程名稱課程稱課程名稱課程名稱課程名稱課程名稱課程</h5><p>活動日期：2018/08/08~2018/08/18~</p></li>
+				<li><span class="badge badge-secondary">已額滿</span><h5>公告稱課程名稱課程名稱課程名稱課程名稱課程公告名稱</h5><p>活動日期：2018/08/08~2018/08/18~</p></li>
+				<li><span class="badge badge-secondary">準備中</span><h5>公告稱課程名稱課程名稱課程名稱課程名稱課程告名稱名稱</h5><p>活動日期：2018/08/08~2018/08/18~</p></li>
+			</ul>
+		</div>
+		<div class="container">
+			<div class="col-lg-6">
+		<ul>
+			<li class="menu_icon"><h4>公會章程與辦法</h4></li>
+			<li class="menu_icon"><h4>會員服務</h4></li>
+			<li class="menu_icon"><h4>活動資訊</h4></li>
+		</ul>
+	</div>
+	<div class="col-lg-6">
+		<ul>
+			<li class="menu_icon"><h4>便民服務</h4></li>
+			<li class="menu_icon"><h4>求職求才</h4></li>
+			<li class="menu_icon"><h4>學分查詢</h4></li>
+		</ul>
+	</div>
+	</div>
+	</div>
+	<div class="container">
+		<div class="row">
+  <div class="example-2 card">
+    <div class="wrapper">
+      <div class="header">
+        <div class="date">
+          <span class="day">12</span>
+          <span class="month">Aug</span>
+          <span class="year">2016</span>
+        </div>
+        <ul class="menu-content">
+          <li>
+            <a href="#" class="fa fa-bookmark-o"></a>
+          </li>
+          <li><a href="#" class="fa fa-heart-o"><span>18</span></a></li>
+          <li><a href="#" class="fa fa-comment-o"><span>3</span></a></li>
+        </ul>
+      </div>
+      <div class="data">
+        <div class="content">
+          <span class="author">Jane Doe</span>
+          <h5 class="title"><a href="#">Stranger Things: The sound of the Upside Down</a></h5>
+          <p class="text">The antsy bingers of Netflix will eagerly anticipate the digital release of the Survive soundtrack, out today.</p>
+          <a href="#" class="button">Read more</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="example-2 card">
+    <div class="wrapper">
+      <div class="header">
+        <div class="date">
+          <span class="day">12</span>
+          <span class="month">Aug</span>
+          <span class="year">2016</span>
+        </div>
+        <ul class="menu-content">
+          <li>
+            <a href="#" class="fa fa-bookmark-o"></a>
+          </li>
+          <li><a href="#" class="fa fa-heart-o"><span>18</span></a></li>
+          <li><a href="#" class="fa fa-comment-o"><span>3</span></a></li>
+        </ul>
+      </div>
+      <div class="data">
+        <div class="content">
+          <span class="author">Jane Doe</span>
+          <h5 class="title"><a href="#">Stranger Things: The sound of the Upside Down</a></h5>
+          <p class="text">The antsy bingers of Netflix will eagerly anticipate the digital release of the Survive soundtrack, out today.</p>
+          <a href="#" class="button">Read more</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="example-2 card">
+    <div class="wrapper">
+      <div class="header">
+        <div class="date">
+          <span class="day">12</span>
+          <span class="month">Aug</span>
+          <span class="year">2016</span>
+        </div>
+        <ul class="menu-content">
+          <li>
+            <a href="#" class="fa fa-bookmark-o"></a>
+          </li>
+          <li><a href="#" class="fa fa-heart-o"><span>18</span></a></li>
+          <li><a href="#" class="fa fa-comment-o"><span>3</span></a></li>
+        </ul>
+      </div>
+      <div class="data">
+        <div class="content">
+          <span class="author">Jane Doe</span>
+          <h5 class="title"><a href="#">Stranger Things: The sound of the Upside Down</a></h5>
+          <p class="text">The antsy bingers of Netflix will eagerly anticipate the digital release of the Survive soundtrack, out today.</p>
+          <a href="#" class="button">Read more</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="example-2 card">
+    <div class="wrapper">
+      <div class="header">
+        <div class="date">
+          <span class="day">12</span>
+          <span class="month">Aug</span>
+          <span class="year">2016</span>
+        </div>
+        <ul class="menu-content">
+          <li>
+            <a href="#" class="fa fa-bookmark-o"></a>
+          </li>
+          <li><a href="#" class="fa fa-heart-o"><span>18</span></a></li>
+          <li><a href="#" class="fa fa-comment-o"><span>3</span></a></li>
+        </ul>
+      </div>
+      <div class="data">
+        <div class="content">
+          <span class="author">Jane Doe</span>
+          <h5 class="title"><a href="#">Stranger Things: The sound of the Upside Down</a></h5>
+          <p class="text">The antsy bingers of Netflix will eagerly anticipate the digital release of the Survive soundtrack, out today.</p>
+          <a href="#" class="button">Read more</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+	<div class="link">
+		<h2>常用連結 LINK</h2>
+		<ul>
+			<li><img class="link_img"></li>
+			<li><img class="link_img"></li>
+			<li><img class="link_img"></li>
+			<li><img class="link_img"></li>
+			<li><img class="link_img"></li>
+			<li><img class="link_img"></li>
+		</ul>
+	</div>
+</div>
+
+	</div>
+<!-- 從這裡開始為該頁面主要的內容 -->
+</section>
+<!-- End main -->
+
+<!-- Start footer -->
+<footer class="footer">
+	<div class="col-lg-4 footer_left">左側</div>
+	<div class="col-lg-4 footer_mid">中</div>
+	<div class="col-lg-4 footer_right">右側</div>
+</div>
+<!-- 表尾的位置，通常是清單連結或著作的元件放置位置、地圖等等 -->
+</footer>
+<!-- End footer -->
+	</div>
+</body>
+<script type="text/javascript">jssor_1_slider_init();</script>
+</html>
